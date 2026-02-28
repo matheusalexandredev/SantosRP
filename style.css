@@ -248,3 +248,104 @@ html {
         grid-column: auto;
     }
 }
+/* --- SEÇÃO DISCORD ORGANIZADA --- */
+.discord-section {
+    padding: 120px 10%;
+    background: radial-gradient(circle at top right, #16161d, #0a0a0c);
+    border-top: 1px solid rgba(88, 101, 242, 0.1);
+}
+
+.discord-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.discord-content {
+    flex: 1;
+}
+
+.discord-content .subtitle {
+    color: #5865F2;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.discord-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.discord-content h2 span {
+    color: #5865F2;
+    text-shadow: 0 0 15px rgba(88, 101, 242, 0.3);
+}
+
+.discord-content p {
+    font-size: 1.1rem;
+    color: #aaa;
+    margin-bottom: 35px;
+    max-width: 500px;
+}
+
+/* Card do Widget com efeito de brilho */
+.discord-card {
+    flex: 0 0 350px;
+    background: #2f3136;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 
+                0 0 20px rgba(88, 101, 242, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.discord-card:hover {
+    transform: translateY(-10px);
+}
+
+.btn-discord-large {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 40px;
+    background-color: #5865F2;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 10px 20px rgba(88, 101, 242, 0.2);
+}
+
+.btn-discord-large:hover {
+    background-color: #4752c4;
+    box-shadow: 0 15px 30px rgba(88, 101, 242, 0.4);
+    transform: scale(1.03);
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    .discord-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    
+    .discord-content p {
+        margin: 0 auto 30px;
+    }
+
+    .discord-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
