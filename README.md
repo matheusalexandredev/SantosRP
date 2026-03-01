@@ -25,7 +25,8 @@ Esta é uma Landing Page moderna e de alta performance desenvolvida para o servi
 
 ## 📸 Demonstração
 
-*(Dica: Aqui podes colocar um print do site ou um GIF dele a funcionar)*
+
+<img width="1902" height="944" alt="Captura de tela 2026-03-01 015104" src="https://github.com/user-attachments/assets/2541dc18-42fa-496c-b860-054bad8d44a2" />
 
 ---
 
